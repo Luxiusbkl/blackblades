@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet"
+    <meta charset="UTF-8">
+    <mata name="viewport" content="width=devise-width, initial-scale=1.0">
+    <title>Robux Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-content">
+            <a href="index.html" class="brand">
+                <img src="images/logo.png" alt="logo BLACK BLADES" class="logo">BLACK BLADES
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html"> Accueil</a></li>
+                    <li><a href="boutique.html">Boutique</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1> Contactez-nous</h1>
+        <p>Pour passer une commandes ou poser une question, remplissez le formulaire ci-dessous :</p>
+
+        <form action="https://formspree.io/f/xyzdlzgp" method="post"
+            <label for="name">Nom :</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit" class="btn">Envoyer</button>      
+        </form>
+    </main>
+</body>
+</html>
